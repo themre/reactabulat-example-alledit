@@ -1,0 +1,25 @@
+{
+  "name": "CRAtest2",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^3.13.0",
+    "react-scripts": "0.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-edit": "^6.1.1",
+    "reactabular": "^8.3.0",
+    "reactabular-table": "^8.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-css": "node-sass src/style/sass/ -o -r src/style/css/",
+    "watch-css": "node-sass -w src/style/sass/ -o src/style/css/bundle.css -r",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
